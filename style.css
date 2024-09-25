@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 100%;
+    max-width: 800px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the game container */
+    background-color: black; /* Black background for the footer */
+    padding: 20px; /* Padding around the game */
+    color: white; /* White text for better visibility */
+    text-align: center; /* Center text */
+}
+
+#gameCanvas {
+    border: 1px solid #fff; /* White border for the canvas */
+    background-color: black; /* Set canvas background to black */
+    width: 100%; /* Full width */
+    height: 400px; /* Set a height for the canvas */
+}
+
+#score-board {
+    margin-top: 10px;
+}
+
+#instructions {
+    margin-top: 20px;
+}
